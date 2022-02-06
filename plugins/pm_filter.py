@@ -361,8 +361,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-                InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
+                InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1'),
+                InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial')
             ],
             
             ]
@@ -413,8 +413,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-                InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
+                InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1'),
+                InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial')
             ],
             ]
         await query.answer()
@@ -431,11 +431,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series'),
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
+            InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial'),
+            InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
@@ -878,14 +878,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Mean Channel ⭕️",url="https://t.me/hindi_world_series")]
+            [InlineKeyboardButton(text="⭕️ Join Our Mean Channel ⭕️",url="https://t.me/sdmoviesflixofficial")]
         )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="⭕️ Join Our Mean Channel ⭕️",url="https://t.me/Hindi_world_series")]
+            [InlineKeyboardButton(text="⭕️ Join Our Mean Channel ⭕️",url="https://t.me/sdmoviesflixofficial")]
         )
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
@@ -923,7 +923,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/+q9NMdy0rY10zZWZl'>© IMDb (Series & Movies) Studio</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 minutes to avoid copyright issues.</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><a href='https://t.me/sdmoviesflixofficial'>© SDMOVIESFLIX</a></b>\n\n<b>✍️ Note:</b> <s>This message will be Auto-deleted after 10 minutes to avoid copyright issues.</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_to_message_id=reply_id, reply_markup=InlineKeyboardMarkup(btn))
