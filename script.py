@@ -22,7 +22,7 @@ Source: <a href='https://t.me/sdmoviesflixcontact_bot'>Contact - Click here 👈
 - <a href='https://t.me/sdmoviesflixnew'>Admin </a>
 
 <b>Main GROUP</b>
-- <a href='https://https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>"""
+- <a href='https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
