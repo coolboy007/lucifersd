@@ -8,7 +8,7 @@ from utils import get_size, temp, get_settings
 from script import Script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------https://t.me/Hindi_world_series --------------------------------------"""
+"""-----------------------------------------https://t.me/sdmoviesflixofficial --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('Mean Channel', url='https:/t.me/Hidni_world_series')
+            InlineKeyboardButton('Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('Main Channel', url='https:/t.me/sdmoviesflixofficial')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
