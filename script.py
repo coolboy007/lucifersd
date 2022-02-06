@@ -1,28 +1,28 @@
 class Script(object):
-    START_TXT = """Hi, I'm <a href=https://t.me/Hindi_world_series>Hindi world seriea</a>! Smart Media Search bot
+    START_TXT = """Hi, I'm <a href=https://t.me/sdmoviesflixofficial>IMDB BOT</a>! Smart Media Search bot
 
-Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Right Name"""
+Here You Can Search Movie And Web Series Just Send Your Movie or Web Series Right Name"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Owner : <a href='https://t.me/Hidden_boy_i'>Only q</a>
+➥ Owner : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIX</a>
 
-➥ Mean Chennel : <a href='https://t.me/Hindi_world_series'>Hindi World Series</a>
-➥ Mean Group : <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>
+➥ MAIN Channel : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIXOFFICIAL</a>
+➥ Main Group : <a href='https://https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>
 ➥ Bot Server : <a href='https://heroku.com'>Heroku</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://t.me/hindi_world_series'>GitHub - Click here 👈</a>
+IMDb is a Personal source project.
+Source: <a href='https://t.me/sdmoviesflixcontact_bot'>Contact - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/Hidden_boy_i'>Only q </a>
+- <a href='https://t.me/sdmoviesflixnew'>Admin </a>
 
-<b>Mean GROUP</b>
-- <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>"""
+<b>Main GROUP</b>
+- <a href='https://https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -49,7 +49,7 @@ Source: <a href='https://t.me/hindi_world_series'>GitHub - Click here 👈</a>
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Hindi_world_series)</code>
+<code>[Button Text](buttonurl:https://t.me/sdmoviesflixofficial)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
