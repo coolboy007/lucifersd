@@ -1,7 +1,7 @@
 class Script(object):
-    START_TXT = """Hi, I'm <a href=https://t.me/sdmoviesflixofficial>IMDB BOT</a>! Smart Media Search bot
+    START_TXT = """<b>Hi, I'm <a href=https://t.me/sdmoviesflixofficial>IMDB BOT</a>! Smart Media Search bot
 
-Here You Can Search Movie And Web Series Just Send Your Movie or Web Series Right Name"""
+Here You Can Search Movie And Web Series Just Send Your Movie or Web Series Right Name</b>"""
 
     HELP_TXT = """Hey {}
 
