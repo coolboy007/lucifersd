@@ -11,7 +11,7 @@ Here You Can Search Movie And Web Series Just Send Your Movie or Web Series Righ
 ➥ Owner : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIX</a>
 
 ➥ MAIN Channel : <a href='https://t.me/sdmoviesflixofficial'>SDMOVIESFLIXOFFICIAL</a>
-➥ Main Group : <a href='https://https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>
+➥ Main Group : <a href='https://t.me/+F_s_7N05VRZlMzI1'>Chat🍿Room</a>
 ➥ Bot Server : <a href='https://heroku.com'>Heroku</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
