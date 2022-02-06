@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
+                InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial')
             ],
             [
-                InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
                 InlineKeyboardButton('Close ✗', callback_data="close_data"),
             ]
             ]
@@ -45,11 +45,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series'),
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
+            InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial'),
+            InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
@@ -94,8 +94,8 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/hindi_world_series'),
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
+            InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial'),
+            InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
@@ -142,8 +142,8 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-                    InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
+                    InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1'),
+                    InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial')
                 ],
                 ]
             try:
@@ -253,8 +253,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
+            InlineKeyboardButton('Main Group', url='https://t.me/+F_s_7N05VRZlMzI1'),
+            InlineKeyboardButton('Main Channel', url='https://t.me/sdmoviesflixofficial')
         ],
         ]
     await client.send_cached_media(
